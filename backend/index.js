@@ -9,7 +9,7 @@ app.use(express.json());
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("Welcome our to online shop API...");
+  res.send("shoes api");
 });
 
 app.get("/products", (req, res) => {
