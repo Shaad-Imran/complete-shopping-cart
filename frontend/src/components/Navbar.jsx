@@ -6,7 +6,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed top-0 left-0 z-20 w-full border-b border-gray-200 bg-white py-2.5 px-6 sm:px-4">
-      <div className="container flex  flex-wrap items-center justify-between ">
+      <div className=" flex  flex-wrap items-center justify-between ">
         <Link to="/">
           <span className="self-center whitespace-nowrap text-xl font-semibold">
             Eshop

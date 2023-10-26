@@ -4,7 +4,6 @@ import ShimmerProductCard from "../components/ShimmerProductCard";
 
 const Home = () => {
   const { data, isLoading } = useGetAllProductsQuery();
-  console.log(isLoading);
 
   return (
     <section className="pt-28 pb-10  bg-gray-100">

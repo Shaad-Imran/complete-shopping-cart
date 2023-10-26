@@ -39,7 +39,7 @@ const Cart = () => {
   };
 
   return (
-    <section className="pt-28 pb-10 px-6 sm:px-4">
+    <section className="pt-28 pb-10 min-h-screen px-6 sm:px-4">
       {cart.cartItems.length === 0 ? (
         <div className=" text-xl mt-8 text-gray-600 flex flex-col items-center">
           <p>Your cart is currently empty</p>
